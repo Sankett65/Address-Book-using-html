@@ -10,19 +10,68 @@
     <header class="header-info  header">
         <div class="logo-info">
             <img src="logo.jpeg" alt="logo">
-            <span class="address-info">ADDRESS</span><br>
-            <span class="address-info address-book">BOOK</span>
+            <div> <span class="address-info">ADDRESS</span><br>
+                <span class="address-info address-book">BOOK</span>
+            </div>
+           
         </div>
     </header>
-    <div class="form-info ">
+    <div class="form-info">
         <form action="#" class="form">
-            <div class="form-top">PERSON ADDRESS FORM</div>
-            
-           
+            <div class="form-top cancelbutton">PERSON ADDRESS FORM
+            <div class="cancelbutton">
+                <img src="cancelButton.png" alt="cancel">
+            </div>
+        </div>
             <div class="row-content">
                 <lable class="name-text text"></lable>
                 <input type="text" class="input" placeholder="Your Name">
             </div>
+            <div class="row-content-address">
+            <label class="name-text text"></label>
+                <input type="text" class="input-address" placeholder="Address">
+            </div>   
+            <div class="select-option"> 
+            <div class="row-content row-select" >
+                <label for="city" ></label>
+                <select id="city" name="city" placeholder="Your city" >
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kerela">Kerela</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Kashmir">Kashmir</option>
+                    <option value="Kolkata">Kolkata</option>
+                </select>
+            </div>
+            
+            <div class="row-content row-select-state" >
+                <label for="state" ></label>
+                <select id="state" name="state" placeholder="Your state" >
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Andra Pradesh">Andra Pradesh</option>
+                    <option value="Deccan">Deccan</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Punjab">Punjab</option>
+                </select>
+                
+            </div>
+        
+            <div class="row-content">
+                <lable class="zipcode"></lable>
+                <input type="text" class="input-zipcode" placeholder="Zipcode">
+            </div>
+        </div>
+           
+            <div class="row-content">
+                <lable class="phone-number"></lable>
+                <input type="text" class="input-phone" placeholder="Phone Number">
+            </div>
+        </div>
+           
+    
+
+            
         </form>
     </div>
     
